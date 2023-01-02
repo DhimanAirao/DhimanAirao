@@ -1,0 +1,10 @@
+alias cat="bat"
+alias ls="exa"
+alias grep='grep --colour=always'
+alias gst="git status"
+alias gl="git log"
+alias gc="git commit"
+alias gdf="git diff"
+alias gp="git push"
+alias gpl="git pull"
+alias gf="git fetch"
