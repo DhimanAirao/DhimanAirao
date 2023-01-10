@@ -17,3 +17,5 @@ fi
 
 cp -v my_alias ~/.my_alias
 sed -i '$a if[[ -f ~/.my_alias ]]; then\n	source ~/.my_alias\nfi' ~/.zshrc
+
+cp -v my_theme.micro ~/.config/micro/colorschemes/
