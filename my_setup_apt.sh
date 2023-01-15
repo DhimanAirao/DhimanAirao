@@ -5,6 +5,8 @@ sudo apt install snapd
 sduo snap install bottom
 sudo apt install guake
 sudo apt install zsh
+sudo apt install neovim
+sudo apt install nodejs npm
 
 cp -v my_bottom.toml ~/.config/bottom/bottom.toml
 
@@ -19,3 +21,7 @@ cp -v my_alias ~/.my_alias
 sed -i '$a if[[ -f ~/.my_alias ]]; then\n	source ~/.my_alias\nfi' ~/.zshrc
 
 cp -v my_theme.micro ~/.config/micro/colorschemes/
+
+mkdir ~/.config/nvim
+cp -vr nvim_config/* ~/.config/nvim/
+
