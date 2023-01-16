@@ -1,5 +1,5 @@
 alias cat="bat"
-alias ls="exa"
+alias ls="exa -l"
 alias grep='grep --colour=always'
 alias gst="git status"
 alias gl="git log"
